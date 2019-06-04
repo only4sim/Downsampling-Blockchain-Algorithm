@@ -1,1 +1,3 @@
 # Downsampling-Blockchain-Algorithm
+
+In blockchain, every full node must store all history transactions in block bodies. However, with the rapid growth of transactions, the storage bloating problem has emerged and made it challenging for a mobile system to afford the storage and synchronization overhead. I have already proposed a plan to downsample block bodies to reduce the nodes’ storage from the perspective of information theory. By downsampling block bodies by M times, only about 1/M of the block bodies with high information entropy are downloaded and stored. Details of this work can be seen at IEEE INCOCOM 2019. The paper is “Downsampling Blockchain Algorithm”. In addition, the presentation can be seen at http://www.cryblock.org/slides-2019/cryblock-slides-2-6.pdf.
